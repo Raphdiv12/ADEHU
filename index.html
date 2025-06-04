@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GIGI</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="loader">
+        <div class="loader-circle"></div>
+    </div>
+
+    
+    <header class="header">
+        <div class="container">
+            <nav class="nav">
+                <a href="#" class="logo">GIGI</a>
+                <ul class="nav-links">
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#collections">Collections</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <div class="menu-toggle">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+
+    <section class="hero">
+        <div class="container grid">
+            <div class="hero-content">
+                <h1>Redefining Fashion</h1>
+                <p class="hero-subtitle">Crafting timeless designs with contemporary influence for the modern aesthetic.</p>
+                <a href="#portfolio" class="btn">Explore Portfolio</a>
+            </div>
+        </div>
+        <div class="hero-images">
+            <img src="C:\Users\user\Documents\Clothe\ali-ahmadi-TjZ1PFNmYhw-unsplash.jpg" alt="Fashion Model 1" class="hero-image">
+            <img src="C:\Users\user\Documents\Clothe\dom-hill-nimElTcTNyY-unsplash.jpg" alt="Fashion Model 2" class="hero-image">
+            <img src="C:\Users\user\Documents\Clothe\edward-howell-EAWKyzfXw44-unsplash.jpg" alt="Fashion Model 3" class="hero-image">
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio section">
+        <div class="container">
+            <h2 class="section-title">Portfolio</h2>
+            <div class="portfolio-filters">
+                <button class="portfolio-filter active" data-filter="all">All</button>
+                <button class="portfolio-filter" data-filter="spring">Spring Collection</button>
+                <button class="portfolio-filter" data-filter="summer">Summer Collection</button>
+                <button class="portfolio-filter" data-filter="editorial">Editorial</button>
+            </div>
+            <div class="portfolio-grid">
+                <div class="portfolio-item" data-category="spring">
+                    <div class="blur-load">
+                        <img src="/api/placeholder/20/30" alt="Thumbnail" class="blur-thumb">
+                        <img src="C:\Users\user\Documents\Clothe\brian-wangenheim-N9mP7LW-OTc-unsplash.jpg" alt="Spring Collection 1" class="portfolio-image full-image">
+                    </div>
+                    <div class="portfolio-overlay">
+                        <h3 class="portfolio-title">Spring Awakening</h3>
+                        <p class="portfolio-category">Spring Collection</p>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="spring">
+                    <div class="blur-load">
+                        <img src="/api/placeholder/20/30" alt="Thumbnail" class="blur-thumb">
+                        <img src="C:\Users\user\Documents\Clothe\houcine-ncib-dgk0I7G9Bsw-unsplash.jpg" alt="Spring Collection 2" class="portfolio-image full-image">
+                    </div>
+                    <div class="portfolio-overlay">
+                        <h3 class="portfolio-title">Urban Bloom</h3>
+                        <p class="portfolio-category">Spring Collection</p>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="summer">
+                    <div class="blur-load">
+                        <img src="/api/placeholder/20/30" alt="Thumbnail" class="blur-thumb">
+                        <img src="C:\Users\user\Documents\Clothe\dom-hill-nimElTcTNyY-unsplash.jpg" alt="Summer Collection 1" class="portfolio-image full-image">
+                    </div>
+                    <div class="portfolio-overlay">
+                        <h3 class="portfolio-title">Solar Radiance</h3>
+                        <p class="portfolio-category">Summer Collection</p>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="editorial">
+                    <div class="blur-load">
+                        <img src="/api/placeholder/20/30" alt="Thumbnail" class="blur-thumb">
+                        <img src="C:\Users\user\Documents\Clothe\bereczki-domokos-co60T2rOIHE-unsplash.jpg" alt="Editorial 1" class="portfolio-image full-image">
+                    </div>
+                    <div class="portfolio-overlay">
+                        <h3 class="portfolio-title">Abstract Patterns</h3>
+                        <p class="portfolio-category">Editorial</p>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="summer">
+                    <div class="blur-load">
+                        <img src="/api/placeholder/20/30" alt="Thumbnail" class="blur-thumb">
+                        <img src="C:\Users\user\Documents\Clothe\artem-beliaikin-Im9hR8_9HP4-unsplash.jpg" alt="Summer Collection 2" class="portfolio-image full-image">
+                    </div>
+                    <div class="portfolio-overlay">
+                        <h3 class="portfolio-title">Coastal Breeze</h3>
+                        <p class="portfolio-category">Summer Collection</p>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="editorial">
+                    <div class="blur-load">
+                        <img src="/api/placeholder/20/30" alt="Thumbnail" class="blur-thumb">
+                        <img src="C:\Users\user\Documents\Clothe\eve-maier-u1OuYQa0WtQ-unsplash.jpg" alt="Editorial 2" class="portfolio-image full-image">
+                    </div>
+                    <div class="portfolio-overlay">
+                        <h3 class="portfolio-title">Metropolitan Elegance</h3>
+                        <p class="portfolio-category">Editorial</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    <section id="about" class="about section">
+        <div class="container grid">
+            <div class="about-content">
+                <h2>Our Story</h2>
+                <p>Founded in 2018, Atelier emerged from a passion for sustainable, timeless fashion that transcends seasonal trends. Our design philosophy embraces the intersection of art, functionality, and ethical production.</p>
+                <p>Every piece is meticulously crafted with attention to detail, utilizing premium fabrics and innovative techniques that honor traditional craftsmanship while pushing the boundaries of contemporary design.</p>
+                <p>We believe in creating pieces that become part of your personal narrative—garments that evolve with you and tell your unique story.</p>
+                <a href="#contact" class="btn btn-outline">Get in Touch</a>
+            </div>
+            <div class="about-image-container">
+                <div class="clay-card">
+                    <img src="rendy-novantino-HuqCJ9dQ2K0-unsplash.jpg" alt="Atelier Designer at Work" class="about-image">
+                    <div class="about-image-bg"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Collections Section with Kinetic Typography -->
+    <section id="collections" class="collections section">
+        <div class="container">
+            <h2 class="collection-title">
+                <span class="kinetic-text">S</span>
+                <span class="kinetic-text">e</span>
+                <span class="kinetic-text">a</span>
+                <span class="kinetic-text">s</span>
+                <span class="kinetic-text">o</span>
+                <span class="kinetic-text">n</span>
+                <span class="kinetic-text">a</span>
+                <span class="kinetic-text">l</span>
+                <span class="kinetic-text">&nbsp;</span>
+                <span class="kinetic-text">C</span>
+                <span class="kinetic-text">o</span>
+                <span class="kinetic-text">l</span>
+                <span class="kinetic-text">l</span>
+                <span class="kinetic-text">e</span>
+                <span class="kinetic-text">c</span>
+                <span class="kinetic-text">t</span>
+                <span class="kinetic-text">i</span>
+                <span class="kinetic-text">o</span>
+                <span class="kinetic-text">n</span>
+                <span class="kinetic-text">s</span>
+            </h2>
+            <div class="collection-slider">
+                <div class="collection-track">
+                    <div class="collection-item">
+                        <div class="blur-load">
+                            <img src="/api/placeholder/20/30" alt="Thumbnail" class="blur-thumb">
+                            <img src="C:\Users\user\Documents\Clothe\brian-wangenheim-N9mP7LW-OTc-unsplash.jpg" alt="Spring Collection" class="collection-image full-image">
+                        </div>
+                        <h3>Spring 2025</h3>
+                        <p>Embracing renewal and organic textures</p>
+                    </div>
+                    <div class="collection-item">
+                        <div class="blur-load">
+                            <img src="/api/placeholder/20/30" alt="Thumbnail" class="blur-thumb">
+                            <img src="chris-yang-cVNLr5dcC5Y-unsplash.jpg" alt="Summer Collection" class="collection-image full-image">
+                        </div>
+                        <h3>Summer 2025</h3>
+                        <p>Luminous hues and flowing silhouettes</p>
+                    </div>
+                    <div class="collection-item">
+                        <div class="blur-load">
+                            <img src="/api/placeholder/20/30" alt="Thumbnail" class="blur-thumb">
+                            <img src="celeste-horrocks-QUR4TqlVsCg-unsplash.jpg" alt="Fall Collection" class="collection-image full-image">
+                        </div>
+                        <h3>Fall 2024</h3>
+                        <p>Rich textures and earthy palettes</p>
+                    </div>
+                    <div class="collection-item">
+                        <div class="blur-load">
+                            <img src="/api/placeholder/20/30" alt="Thumbnail" class="blur-thumb">
+                            <img src="C:\Users\user\Documents\Clothe\diana-yildirim-IimiyE6-6Jc-unsplash.jpg" alt="Winter Collection" class="collection-image full-image">
+                        </div>
+                        <h3>Winter 2024</h3>
+                        <p>Sculptural forms and modern elegance</p>
+                    </div>
+                </div>
+                <div class="slider-nav">
+                    <button class="slider-btn prev-btn"><i class="fas fa-chevron-left"></i></button>
+                    <button class="slider-btn next-btn"><i class="fas fa-chevron-right"></i></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section with Neubrutalism -->
+    <section id="contact" class="contact section">
+        <div class="container">
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h2>Get In Touch</h2>
+                    <p>We'd love to hear from you. Whether you're interested in a collaboration, have a question about our collections, or just want to say hello, reach out to us.</p>
+                    <p>Email: hello@atelierfashion.com</p>
+                    <p>Phone: +1 (555) 123-4567</p>
+                    <p>Studio: 123 Fashion Avenue, Design District, New York, NY 10001</p>
+                </div>
+                <div class="contact-form">
+                    <form id="contact-form">
+                        <div class="form-group">
+                            <label class="form-label" for="name">Name</label>
+                            <input type="text" id="name" class="form-input" required>
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label" for="email">Email</label>
+                            <input type="email" id="email" class="form-input" required>
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label" for="subject">Subject</label>
+                            <input type="text" id="subject" class="form-input">
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label" for="message">Message</label>
+                            <textarea id="message" class="form-input form-textarea" required></textarea>
+                        </div>
+                        <button type="submit" class="btn">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <a href="#" class="footer-logo">ATELIER</a>
+                    <p>Redefining fashion through timeless design and sustainable practices.</p>
+                    <div class="footer-social">
+                        <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-pinterest"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                    </div>
+                </div>
+                <div class="footer-column">
+                    <h3>Explore</h3>
+                    <ul class="footer-links">
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#collections">Collections</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Collections</h3>
+                    <ul class="footer-links">
+                        <li><a href="#">Spring 2025</a></li>
+                        <li><a href="#">Summer 2025</a></li>
+                        <li><a href="#">Fall 2024</a></li>
+                        <li><a href="#">Winter 2024</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Legal</h3>
+                    <ul class="footer-links">
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                        <li><a href="#">Shipping & Returns</a></li>
+                        <li><a href="#">FAQ</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2025 Atelier Fashion Brand. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+<script src="script.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js"></script>
+</body>
+</html>
